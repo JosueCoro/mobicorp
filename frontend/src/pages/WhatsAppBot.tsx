@@ -160,6 +160,27 @@ export default function WhatsAppBot() {
     }
   }
 
+  // Cerrar sesión de WhatsApp
+  const cerrarSesion = async () => {
+    if (!confirm('¿Estás seguro de que quieres cerrar la sesión de WhatsApp? Tendrás que escanear el QR nuevamente.')) return
+    
+    try {
+      const response = await fetch('http://localhost:3001/api/logout', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' }
+      })
+      const data = await response.json()
+      if (data.success) {
+        mostrarMensaje('success', 'Sesión cerrada exitosamente')
+        setQrData({ qr: null, authenticated: false })
+      } else {
+        mostrarMensaje('error', data.error)
+      }
+    } catch (error) {
+      mostrarMensaje('error', 'Error al cerrar sesión')
+    }
+  }
+
   return (
     <div style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
       <div style={{ marginBottom: '2rem' }}>
@@ -179,7 +200,7 @@ export default function WhatsAppBot() {
 
       {/* Contenido */}
       <div style={{ background: 'var(--bg-secondary)', padding: '2rem', borderRadius: '12px', border: '1px solid var(--border-dark)' }}>
-        {activeTab === 'qr' && <QRView qrData={qrData} solicitarCotizacion={solicitarCotizacion} solicitando={solicitando} mensaje={mensaje} />}
+        {activeTab === 'qr' && <QRView qrData={qrData} solicitarCotizacion={solicitarCotizacion} solicitando={solicitando} mensaje={mensaje} cerrarSesion={cerrarSesion} />}
         {activeTab === 'contactos' && (
           <ContactosView 
             contactos={contactos}
@@ -234,11 +255,12 @@ function TabButton({ active, onClick, icon, text }: { active: boolean, onClick: 
 }
 
 // Vista QR
-function QRView({ qrData, solicitarCotizacion, solicitando, mensaje }: { 
+function QRView({ qrData, solicitarCotizacion, solicitando, mensaje, cerrarSesion }: { 
   qrData: { qr: string | null, authenticated: boolean },
   solicitarCotizacion: () => void,
   solicitando: boolean,
-  mensaje: { tipo: string, texto: string }
+  mensaje: { tipo: string, texto: string },
+  cerrarSesion: () => void
 }) {
   return (
     <div style={{ textAlign: 'center' }}>
@@ -279,7 +301,7 @@ function QRView({ qrData, solicitarCotizacion, solicitando, mensaje }: {
       </div>
       
       {qrData.authenticated && (
-        <div style={{ marginTop: '2rem' }}>
+        <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
           <button
             onClick={solicitarCotizacion}
             disabled={solicitando}
@@ -297,19 +319,38 @@ function QRView({ qrData, solicitarCotizacion, solicitando, mensaje }: {
           >
             {solicitando ? '⏳ Enviando...' : '📤 Solicitar Cotización a Proveedores'}
           </button>
-          
-          {mensaje.texto && (
-            <div style={{
-              marginTop: '1rem',
-              padding: '12px',
+
+          <button
+            onClick={cerrarSesion}
+            style={{
+              padding: '14px 32px',
+              background: '#ef4444',
+              color: 'white',
+              border: 'none',
               borderRadius: '8px',
-              background: mensaje.tipo === 'success' ? '#d4edda' : '#f8d7da',
-              color: mensaje.tipo === 'success' ? '#155724' : '#721c24',
-              border: `1px solid ${mensaje.tipo === 'success' ? '#c3e6cb' : '#f5c6cb'}`
-            }}>
-              {mensaje.texto}
-            </div>
-          )}
+              cursor: 'pointer',
+              fontWeight: '600',
+              fontSize: '1rem',
+              transition: 'all 0.2s'
+            }}
+            onMouseEnter={(e) => e.currentTarget.style.background = '#dc2626'}
+            onMouseLeave={(e) => e.currentTarget.style.background = '#ef4444'}
+          >
+            🚪 Cerrar Sesión
+          </button>
+        </div>
+      )}
+          
+      {mensaje.texto && (
+        <div style={{
+          marginTop: '1rem',
+          padding: '12px',
+          borderRadius: '8px',
+          background: mensaje.tipo === 'success' ? '#d4edda' : '#f8d7da',
+          color: mensaje.tipo === 'success' ? '#155724' : '#721c24',
+          border: `1px solid ${mensaje.tipo === 'success' ? '#c3e6cb' : '#f5c6cb'}`
+        }}>
+          {mensaje.texto}
         </div>
       )}
     </div>

@@ -10,5 +10,17 @@
     "nombre": "Proveedor 2",
     "numero": "59163448209",
     "activo": true
+  },
+  {
+    "id": 3,
+    "nombre": "Proveedor 3",
+    "numero": "59167849464",
+    "activo": true
+  },
+  {
+    "id": 4,
+    "nombre": "proveedor rr",
+    "numero": "59177706674",
+    "activo": true
   }
 ]

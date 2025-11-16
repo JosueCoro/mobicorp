@@ -193,6 +193,38 @@ class QRServer {
                 res.status(500).json({ success: false, error: error.message });
             }
         });
+
+        // Cerrar sesión de WhatsApp
+        this.app.post('/api/logout', async (req, res) => {
+            const client = this.getClient();
+            if (!client) {
+                return res.status(500).json({ success: false, error: 'Cliente no disponible' });
+            }
+
+            try {
+                // Primero responder al cliente
+                res.json({ 
+                    success: true, 
+                    message: 'Sesión cerrada. Escanea el QR nuevamente para reconectar.' 
+                });
+
+                // Luego cerrar sesión después de un pequeño delay
+                setTimeout(async () => {
+                    try {
+                        await client.logout();
+                        this.currentQR = null;
+                        this.isAuthenticated = false;
+                        console.log('✅ Sesión de WhatsApp cerrada exitosamente');
+                    } catch (error) {
+                        console.error('❌ Error al cerrar sesión:', error);
+                    }
+                }, 500);
+
+            } catch (error) {
+                console.error('Error al cerrar sesión:', error);
+                res.status(500).json({ success: false, error: error.message });
+            }
+        });
     }
 
     getHTML() {

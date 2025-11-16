@@ -392,10 +392,55 @@
       "armarios": false,
       "estanterias": false,
       "timestamp": 1763300003375
+    },
+    {
+      "id": 1763305418031,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T15:03:34.866Z",
+      "mensajeCompleto": "400bs. Las sillas",
+      "tienePrecio": true,
+      "precios": [
+        "400"
+      ],
+      "escritorios": false,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763305414866
+    },
+    {
+      "id": 1763309229917,
+      "proveedor": "59167849464",
+      "fecha": "2025-11-16T16:07:04.871Z",
+      "mensajeCompleto": "Sillas moderna ejecutiva, a 500 bs",
+      "tienePrecio": true,
+      "precios": [
+        "500"
+      ],
+      "escritorios": false,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763309224871
+    },
+    {
+      "id": 1763311259367,
+      "proveedor": "59177706674",
+      "fecha": "2025-11-16T16:40:57.485Z",
+      "mensajeCompleto": "Ese modelo se escuntra con el precio de 500 dólares",
+      "tienePrecio": true,
+      "precios": [
+        "500"
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763311257485
     }
   ],
-  "ultimaActualizacion": "2025-11-16T13:33:24.393Z",
-  "totalCotizaciones": 26,
+  "ultimaActualizacion": "2025-11-16T16:40:59.367Z",
+  "totalCotizaciones": 29,
   "informacion": {
     "descripcion": "Archivo de almacenamiento de cotizaciones de proveedores",
     "creadoEn": "2025-11-15",
