@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "nombre": "Proveedor 1",
+    "numero": "59179001752",
+    "activo": true
+  },
+  {
+    "id": 2,
+    "nombre": "Proveedor 2",
+    "numero": "59163448209",
+    "activo": true
+  }
+]

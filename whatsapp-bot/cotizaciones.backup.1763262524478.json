@@ -1,0 +1,27 @@
+{
+  "cotizaciones": [
+    {
+      "id": 1763261974538,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T02:59:34.528Z",
+      "mensajeCompleto": "[TRANSCRITO DE VOZ] Tengo nuevos escritorios, sillas de oficina. ¿Cuál es el precio? Eh, mayormente cuestan 500 dólares la silla y 1200 dólares que son los escritorios.",
+      "tienePrecio": true,
+      "precios": [
+        500,
+        1200
+      ],
+      "escritorios": true,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763261974528
+    }
+  ],
+  "ultimaActualizacion": "2025-11-16T02:59:34.540Z",
+  "totalCotizaciones": 1,
+  "informacion": {
+    "descripcion": "Archivo de almacenamiento de cotizaciones de proveedores",
+    "creadoEn": "2025-11-15",
+    "version": "1.0"
+  }
+}

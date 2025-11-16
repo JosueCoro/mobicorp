@@ -1,0 +1,119 @@
+{
+  "cotizaciones": [
+    {
+      "id": 1763261974538,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T02:59:34.528Z",
+      "mensajeCompleto": "[TRANSCRITO DE VOZ] Tengo nuevos escritorios, sillas de oficina. ¿Cuál es el precio? Eh, mayormente cuestan 500 dólares la silla y 1200 dólares que son los escritorios.",
+      "tienePrecio": true,
+      "precios": [
+        500,
+        1200
+      ],
+      "escritorios": true,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763261974528
+    },
+    {
+      "id": 1763262524478,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T03:08:44.474Z",
+      "mensajeCompleto": "[TRANSCRITO DE VOZ] Actualmente tenemos escritorios ejecutivos y sillas ejecutivas. Las sillas tienen un precio de $500 dólares y los escritorios tienen un precio de $1500 dólares.",
+      "tienePrecio": true,
+      "precios": [
+        500,
+        1500
+      ],
+      "escritorios": true,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763262524474
+    },
+    {
+      "id": 1763266220445,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T04:10:20.435Z",
+      "mensajeCompleto": "500 dólares precio unitario \n\n47 disponibles \n\n48 hrs para la entrega",
+      "tienePrecio": true,
+      "precios": [
+        "500"
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763266220435
+    },
+    {
+      "id": 1763266494161,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T04:14:54.155Z",
+      "mensajeCompleto": "Está en 230 bolivianos",
+      "tienePrecio": true,
+      "precios": [
+        230
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763266494155
+    },
+    {
+      "id": 1763266929687,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T04:22:09.685Z",
+      "mensajeCompleto": "[TRANSCRITO DE VOZ] Perfecto mi estimado, tenemos esta silla a $350 dólares y esto de gritorio a $1800 dólares.",
+      "tienePrecio": true,
+      "precios": [
+        350,
+        1800
+      ],
+      "escritorios": false,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763266929685
+    },
+    {
+      "id": 1763267683207,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T04:34:43.205Z",
+      "mensajeCompleto": "300 bolivianos",
+      "tienePrecio": true,
+      "precios": [
+        300
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763267683205
+    },
+    {
+      "id": 1763268404695,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T04:46:44.689Z",
+      "mensajeCompleto": "[TRANSCRITO DE VOZ] Hola, ¿qué tal? ¿Cómo está? Mi estimado, tenemos estos productos disponibles. Ejemplo, una silla empresarial cuesta alrededor de 500 dólares y alrededor de 3.500 dolares.",
+      "tienePrecio": true,
+      "precios": [
+        500
+      ],
+      "escritorios": false,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763268404690
+    }
+  ],
+  "ultimaActualizacion": "2025-11-16T04:46:44.695Z",
+  "totalCotizaciones": 7,
+  "informacion": {
+    "descripcion": "Archivo de almacenamiento de cotizaciones de proveedores",
+    "creadoEn": "2025-11-15",
+    "version": "1.0"
+  }
+}

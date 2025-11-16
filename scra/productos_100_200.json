@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "fecha_scraping": "2025-11-15T20:07:33.139933",
+    "fuente": "LivingRoom Bolivia",
+    "categoria": "Sillas de Oficina",
+    "rango_buscado": {
+      "min": 100,
+      "max": 200
+    },
+    "duracion_segundos": 262.92,
+    "total_consultas": 101
+  },
+  "estadisticas": {
+    "total_productos": 16,
+    "precios_diferentes": 11,
+    "precio_minimo": 100,
+    "precio_maximo": 200,
+    "precio_promedio": 146.88,
+    "lista_precios": [
+      100,
+      110,
+      120,
+      130,
+      150,
+      155,
+      165,
+      170,
+      180,
+      190,
+      200
+    ]
+  },
+  "productos": [
+    {
+      "nombre": "SILLA ERGOPLAX NEGRA",
+      "precio": 100,
+      "link": "https://www.livingroom.com.bo/producto/silla-espera-ergoplax-negra-desm/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2021/11/PM42-247x247.jpg",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    },
+    {
+      "nombre": "SILLA ERGOPLAX GRIS",
+      "precio": 100,
+      "link": "https://www.livingroom.com.bo/producto/silla-ergoplax-cinza-preto-estofado-gris/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2021/11/PM23-247x247.jpg",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    },
+    {
+      "nombre": "SILLA DE ESPERA CLEVER CROMADA",
+      "precio": 110,
+      "link": "https://www.livingroom.com.bo/producto/silla-de-espera-clever/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2020/05/IMAGEN-SILLA-DE-ESPERA-CLEVER-CON-BRAZOS-247x247.jpg",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    },
+    {
+      "nombre": "SILLA VESPER ESTÁTICA VINIL BASALTO",
+      "precio": 120,
+      "link": "https://www.livingroom.com.bo/producto/silla-vesper-fija-vinil/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2023/04/posterior-37-247x247.png",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    },
+    {
+      "nombre": "SILLA VESPER FIJA BASALTO",
+      "precio": 120,
+      "link": "https://www.livingroom.com.bo/producto/silla-vesper-fija/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2022/07/VESPER-lateral-16-247x247.jpg",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    },
+    {
+      "nombre": "SILLA SECRETARIAL ERGOPLAX AMARILLA",
+      "precio": 130,
+      "link": "https://www.livingroom.com.bo/producto/silla-secretarial-pm115/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2023/08/frontal-7-247x247.jpg",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    },
+    {
+      "nombre": "SILLA SECRETARIAL ERGOPLAX GRIS",
+      "precio": 130,
+      "link": "https://www.livingroom.com.bo/producto/silla-secretarial-pm116/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2023/08/frontal-5-247x247.png",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    },
+    {
+      "nombre": "SILLA VESPER ESTÁTICA BLANCO",
+      "precio": 150,
+      "link": "https://www.livingroom.com.bo/producto/silla-vesper-estatica-blanco/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2024/07/ves-247x247.png",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    },
+    {
+      "nombre": "SILLA VESPER NEGRA",
+      "precio": 155,
+      "link": "https://www.livingroom.com.bo/producto/silla-vesper-negra/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2021/11/PM20-247x247.jpg",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    },
+    {
+      "nombre": "SILLA QUICK MOSTARDA",
+      "precio": 165,
+      "link": "https://www.livingroom.com.bo/producto/silla-quick-mostarda/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2023/04/frontal-35-247x247.png",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    },
+    {
+      "nombre": "SILLA QUICK BLANCA",
+      "precio": 165,
+      "link": "https://www.livingroom.com.bo/producto/silla-quick-blanca/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2023/04/frontal-34-247x247.png",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    },
+    {
+      "nombre": "SILLA QUICK BASALTO",
+      "precio": 165,
+      "link": "https://www.livingroom.com.bo/producto/silla-quick-basalto/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2021/11/PM24-2-247x247.jpg",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    },
+    {
+      "nombre": "SILLA DE OFICINA ONLY LIGTH",
+      "precio": 170,
+      "link": "https://www.livingroom.com.bo/producto/silla-de-oficina-only-ligth/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2020/05/IMAGEN-SILLA-ONLY-LIGHT-2-247x247.jpg",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    },
+    {
+      "nombre": "SILLA BRIZZA DE ESPERA AZUL",
+      "precio": 180,
+      "link": "https://www.livingroom.com.bo/producto/silla-de-espera-pm119/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2023/08/frontal-60-247x247.png",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    },
+    {
+      "nombre": "SILLA DE OFICINA FACE ALTA",
+      "precio": 190,
+      "link": "https://www.livingroom.com.bo/producto/silla-de-oficina-face-alta/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2020/05/IMAGEN-SILLA-FACE-ALTA-ORIGINAL-247x247.jpg",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    },
+    {
+      "nombre": "SILLA DE OFICINA NOVA CROMA CORTA",
+      "precio": 200,
+      "link": "https://www.livingroom.com.bo/producto/silla-de-oficina-nova-croma-corta/",
+      "imagen": "https://www.livingroom.com.bo/wp-content/uploads/2020/05/IMAGEN-SILLA-NOVA-CROMA-BAJA-ECOCUERO-PRECIO-ACTUAL-DE-200-247x247.jpg",
+      "categoria": "Sillas de Oficina",
+      "fuente": "LivingRoom Bolivia"
+    }
+  ]
+}

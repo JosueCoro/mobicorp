@@ -1,0 +1,58 @@
+{
+  "cotizaciones": [
+    {
+      "id": 1763261974538,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T02:59:34.528Z",
+      "mensajeCompleto": "[TRANSCRITO DE VOZ] Tengo nuevos escritorios, sillas de oficina. ¿Cuál es el precio? Eh, mayormente cuestan 500 dólares la silla y 1200 dólares que son los escritorios.",
+      "tienePrecio": true,
+      "precios": [
+        500,
+        1200
+      ],
+      "escritorios": true,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763261974528
+    },
+    {
+      "id": 1763262524478,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T03:08:44.474Z",
+      "mensajeCompleto": "[TRANSCRITO DE VOZ] Actualmente tenemos escritorios ejecutivos y sillas ejecutivas. Las sillas tienen un precio de $500 dólares y los escritorios tienen un precio de $1500 dólares.",
+      "tienePrecio": true,
+      "precios": [
+        500,
+        1500
+      ],
+      "escritorios": true,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763262524474
+    },
+    {
+      "id": 1763266220445,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T04:10:20.435Z",
+      "mensajeCompleto": "500 dólares precio unitario \n\n47 disponibles \n\n48 hrs para la entrega",
+      "tienePrecio": true,
+      "precios": [
+        "500"
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763266220435
+    }
+  ],
+  "ultimaActualizacion": "2025-11-16T04:10:20.446Z",
+  "totalCotizaciones": 3,
+  "informacion": {
+    "descripcion": "Archivo de almacenamiento de cotizaciones de proveedores",
+    "creadoEn": "2025-11-15",
+    "version": "1.0"
+  }
+}

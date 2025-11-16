@@ -1,0 +1,404 @@
+{
+  "cotizaciones": [
+    {
+      "id": 1763261974538,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T02:59:34.528Z",
+      "mensajeCompleto": "[TRANSCRITO DE VOZ] Tengo nuevos escritorios, sillas de oficina. ¿Cuál es el precio? Eh, mayormente cuestan 500 dólares la silla y 1200 dólares que son los escritorios.",
+      "tienePrecio": true,
+      "precios": [
+        500,
+        1200
+      ],
+      "escritorios": true,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763261974528
+    },
+    {
+      "id": 1763262524478,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T03:08:44.474Z",
+      "mensajeCompleto": "[TRANSCRITO DE VOZ] Actualmente tenemos escritorios ejecutivos y sillas ejecutivas. Las sillas tienen un precio de $500 dólares y los escritorios tienen un precio de $1500 dólares.",
+      "tienePrecio": true,
+      "precios": [
+        500,
+        1500
+      ],
+      "escritorios": true,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763262524474
+    },
+    {
+      "id": 1763266220445,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T04:10:20.435Z",
+      "mensajeCompleto": "500 dólares precio unitario \n\n47 disponibles \n\n48 hrs para la entrega",
+      "tienePrecio": true,
+      "precios": [
+        "500"
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763266220435
+    },
+    {
+      "id": 1763266494161,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T04:14:54.155Z",
+      "mensajeCompleto": "Está en 230 bolivianos",
+      "tienePrecio": true,
+      "precios": [
+        230
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763266494155
+    },
+    {
+      "id": 1763266929687,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T04:22:09.685Z",
+      "mensajeCompleto": "[TRANSCRITO DE VOZ] Perfecto mi estimado, tenemos esta silla a $350 dólares y esto de gritorio a $1800 dólares.",
+      "tienePrecio": true,
+      "precios": [
+        350,
+        1800
+      ],
+      "escritorios": false,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763266929685
+    },
+    {
+      "id": 1763267683207,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T04:34:43.205Z",
+      "mensajeCompleto": "300 bolivianos",
+      "tienePrecio": true,
+      "precios": [
+        300
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763267683205
+    },
+    {
+      "id": 1763268404695,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T04:46:44.689Z",
+      "mensajeCompleto": "[TRANSCRITO DE VOZ] Hola, ¿qué tal? ¿Cómo está? Mi estimado, tenemos estos productos disponibles. Ejemplo, una silla empresarial cuesta alrededor de 500 dólares y alrededor de 3.500 dolares.",
+      "tienePrecio": true,
+      "precios": [
+        500
+      ],
+      "escritorios": false,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763268404690
+    },
+    {
+      "id": 1763269342537,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T05:02:22.535Z",
+      "mensajeCompleto": "300 bs",
+      "tienePrecio": true,
+      "precios": [
+        "300"
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763269342535
+    },
+    {
+      "id": 1763285118793,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T09:25:17.715Z",
+      "mensajeCompleto": "Tengas unas sillas melani a 576 bolivianos",
+      "tienePrecio": true,
+      "precios": [
+        576
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763285117715
+    },
+    {
+      "id": 1763285224435,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T09:27:03.441Z",
+      "mensajeCompleto": "Tengas unas sillas melani a 576 bolivianos",
+      "tienePrecio": true,
+      "precios": [
+        576
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763285223441
+    },
+    {
+      "id": 1763285927809,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T09:38:45.900Z",
+      "mensajeCompleto": "Tenemos sillas adilar 480 bolivianos",
+      "tienePrecio": true,
+      "precios": [
+        480
+      ],
+      "escritorios": false,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763285925900
+    },
+    {
+      "id": 1763286770286,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T09:52:49.259Z",
+      "mensajeCompleto": "Silla Gamer 345 bolivianos",
+      "tienePrecio": true,
+      "precios": [
+        345
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763286769259
+    },
+    {
+      "id": 1763288495446,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T10:21:34.430Z",
+      "mensajeCompleto": "Tengo un escritorio de oficina a 1000 dólares que si le interesa , alguna otra pregunta",
+      "tienePrecio": true,
+      "precios": [
+        "1000"
+      ],
+      "escritorios": true,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763288494430
+    },
+    {
+      "id": 1763293546127,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T11:45:41.093Z",
+      "mensajeCompleto": "879 bolivianos",
+      "tienePrecio": true,
+      "precios": [
+        879
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763293541093
+    },
+    {
+      "id": 1763294363498,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T11:59:21.868Z",
+      "mensajeCompleto": "Silla ejecutiva 500",
+      "tienePrecio": true,
+      "precios": [
+        500
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763294361868
+    },
+    {
+      "id": 1763295045632,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T12:10:44.609Z",
+      "mensajeCompleto": "Están a 250 bolivianos",
+      "tienePrecio": true,
+      "precios": [
+        250
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763295044609
+    },
+    {
+      "id": 1763295868639,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T12:24:27.646Z",
+      "mensajeCompleto": "Cuesta 350 bs",
+      "tienePrecio": true,
+      "precios": [
+        "350"
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763295867646
+    },
+    {
+      "id": 1763298206664,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T13:03:26.624Z",
+      "mensajeCompleto": "Ese modelo está a 500 bs",
+      "tienePrecio": true,
+      "precios": [
+        "500"
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763298206624
+    },
+    {
+      "id": 1763298950350,
+      "proveedor": "59179001752",
+      "fecha": "2025-11-16T13:15:50.331Z",
+      "mensajeCompleto": "500 bolivianos",
+      "tienePrecio": true,
+      "precios": [
+        500
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763298950331
+    },
+    {
+      "id": 1763299526172,
+      "proveedor": "59179001752",
+      "fecha": "2025-11-16T13:25:26.103Z",
+      "mensajeCompleto": "essa esta en 500 bs la neuva",
+      "tienePrecio": true,
+      "precios": [
+        "500"
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763299526103
+    },
+    {
+      "id": 1763299578543,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T13:26:18.495Z",
+      "mensajeCompleto": "El precio de ese modelo mi estimado  está a 500 dólar",
+      "tienePrecio": true,
+      "precios": [
+        500
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763299578495
+    },
+    {
+      "id": 1763299596640,
+      "proveedor": "59179001752",
+      "fecha": "2025-11-16T13:26:36.633Z",
+      "mensajeCompleto": "tegno sillas nuevas a 44 bs",
+      "tienePrecio": true,
+      "precios": [
+        "44"
+      ],
+      "escritorios": false,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763299596633
+    },
+    {
+      "id": 1763299842904,
+      "proveedor": "59179001752",
+      "fecha": "2025-11-16T13:30:42.876Z",
+      "mensajeCompleto": "tegno nuevas silla 100 bs",
+      "tienePrecio": true,
+      "precios": [
+        "100"
+      ],
+      "escritorios": false,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763299842876
+    },
+    {
+      "id": 1763299927910,
+      "proveedor": "59179001752",
+      "fecha": "2025-11-16T13:32:04.697Z",
+      "mensajeCompleto": "tengouans neuvas silla a 100 bs",
+      "tienePrecio": true,
+      "precios": [
+        "100"
+      ],
+      "escritorios": false,
+      "sillas": true,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763299924697
+    },
+    {
+      "id": 1763299979899,
+      "proveedor": "59179001752",
+      "fecha": "2025-11-16T13:32:58.741Z",
+      "mensajeCompleto": "esta en 789 dolares",
+      "tienePrecio": true,
+      "precios": [
+        "789"
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763299978741
+    },
+    {
+      "id": 1763300004393,
+      "proveedor": "59163448209",
+      "fecha": "2025-11-16T13:33:23.375Z",
+      "mensajeCompleto": "Ese modelo está a 1200 bs",
+      "tienePrecio": true,
+      "precios": [
+        "1200"
+      ],
+      "escritorios": false,
+      "sillas": false,
+      "armarios": false,
+      "estanterias": false,
+      "timestamp": 1763300003375
+    }
+  ],
+  "ultimaActualizacion": "2025-11-16T13:33:24.393Z",
+  "totalCotizaciones": 26,
+  "informacion": {
+    "descripcion": "Archivo de almacenamiento de cotizaciones de proveedores",
+    "creadoEn": "2025-11-15",
+    "version": "1.0"
+  }
+}
